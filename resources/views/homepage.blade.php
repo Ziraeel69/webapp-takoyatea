@@ -122,10 +122,10 @@
                 <a href="assets-homepage/assets/img/menu1.png" class="glightbox"><img src="assets-homepage/assets/img/menu1.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Menu 1</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                  
                 </p>
                 <p class="price">
-                  $5.95
+                  
                 </p>
               </div><!-- Menu Item -->
 
@@ -133,10 +133,10 @@
                 <a href="assets-homepage/assets/img/menu2.png" class="glightbox"><img src="assets-homepage/assets/img/menu2.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Menu 2</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                
                 </p>
                 <p class="price">
-                  $5.95
+
                 </p>
               </div><!-- Menu Item -->
 
@@ -717,14 +717,14 @@
 
         <div class="gallery-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery-1.jpg"><img src="assets-homepage/assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery-2.jpg"><img src="assets-homepage/assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery-3.jpg"><img src="assets-homepage/assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery-4.jpg"><img src="assets-homepage/assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery-5.jpg"><img src="assets-homepage/assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery-6.jpg"><img src="assets-homepage/assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery-7.jpg"><img src="assets-homepage/assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery-8.jpg"><img src="assets-homepage/assets/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery1.png"><img src="assets-homepage/assets/img/gallery/gallery1.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery2.png"><img src="assets-homepage/assets/img/gallery/gallery2.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery3.png"><img src="assets-homepage/assets/img/gallery/gallery3.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery4.png"><img src="assets-homepage/assets/img/gallery/gallery4.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery5.png"><img src="assets-homepage/assets/img/gallery/gallery5.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery6.png"><img src="assets-homepage/assets/img/gallery/gallery6.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery7.png"><img src="assets-homepage/assets/img/gallery/gallery7.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery8.png"><img src="assets-homepage/assets/img/gallery/gallery8.png" class="img-fluid" alt=""></a></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
