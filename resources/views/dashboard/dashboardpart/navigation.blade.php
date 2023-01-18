@@ -213,11 +213,9 @@
         </li>
 
         <li>
-          <form action="{{  }}" method="post"></form>
-          <a class="dropdown-item d-flex align-items-center" href="#">
-            <i class="bi bi-box-arrow-right"></i>
-            <span>Sign Out</span>
-          </a>
+          <x-primary-button class="ml-3">
+            {{ __('Log in') }}
+        </x-primary-button>
         </li>
 
       </ul><!-- End Profile Dropdown Items -->
