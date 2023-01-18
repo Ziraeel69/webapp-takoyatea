@@ -18,5 +18,10 @@ Route::get('/', [PagesController::class, 'index']);
 
 Route::get('/login', [PagesController::class, 'login']);
 
+Route::get('/announcement', function(){
+    return view('dashboard.pages.announcement-table');
+}) ;
 
-
+Route::get('/dashboard', function(){
+    return view('dashboard.pages.main-dashboard');
+}) ;
