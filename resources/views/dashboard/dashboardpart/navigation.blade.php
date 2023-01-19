@@ -209,13 +209,16 @@
           </a>
         </li>
         <li>
-          <hr class="dropdown-divider">
+          <form method="POST" action="{{ route('logout') }}">
+            @csrf
+            <button class="dropdown-item d-flex align-items-center " type="submit>
+              <i class="bi bi-question-circle"></i>
+              <span>Log Out</span>
+            </button>
+        </form>
         </li>
-
         <li>
-          <x-primary-button class="ml-3">
-            {{ __('Log in') }}
-        </x-primary-button>
+          
         </li>
 
       </ul><!-- End Profile Dropdown Items -->

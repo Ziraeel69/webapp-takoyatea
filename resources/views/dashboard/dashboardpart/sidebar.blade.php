@@ -127,7 +127,7 @@
         </a>
       </li>
       <li>
-        <a href="{{ url('/announcement') }}">
+        <a href="{{ route('announcements.index') }}">
           <i class="bi bi-circle"></i><span>Announcement Table</span>
         </a>
       </li>
