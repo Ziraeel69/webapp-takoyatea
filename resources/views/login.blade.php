@@ -38,7 +38,7 @@
 				<span  class="login100-form-title p-b-41">
 					User Login
 				</span>
-				<form class="login100-form validate-form p-b-33 p-t-5">
+				<form class="login100-form validate-form p-b-33 p-t-5" method="POST" action="{{ url('/dashboard') }}">
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter Username">
 						<input class="input100" type="text" name="username" placeholder="User name">
