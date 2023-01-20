@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\announcement;
+use App\Models\Announcement;
 use App\Http\Requests\StoreannouncementRequest;
 use App\Http\Requests\UpdateannouncementRequest;
 use Illuminate\Support\Facades\DB;
@@ -17,9 +17,7 @@ class AnnouncementController extends Controller
     public function index()
     {
 
-        $announcement = DB::table('announcements')
-            ->select('header', 'sub_header', 'description', 'image', 'user_id')
-            ->get();
+        $announcement = Announcement::all();
         return view('dashboard.pages.announcement-table', ['data' => $announcement ]);
     }
 
