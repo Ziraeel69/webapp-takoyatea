@@ -3,9 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Announcement;
-use App\Http\Requests\StoreannouncementRequest;
-use App\Http\Requests\UpdateannouncementRequest;
+use App\Http\Requests\StoreAnnouncementRequest;
+use App\Http\Requests\UpdateAnnouncementRequest;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Http\Request;
 
 class AnnouncementController extends Controller
 {
@@ -16,9 +17,13 @@ class AnnouncementController extends Controller
      */
     public function index()
     {
-
-        $announcement = Announcement::all();
-        return view('dashboard.pages.announcement-table', ['data' => $announcement ]);
+    
+        // $announcement = Announcement::all();
+        // return view('dashboard.pages.announcement-table', ['data' => $announcement ]);
+    
+        $data = Announcement::latest() -> paginate(5);
+        return view('dashboard.pages.announcement-table', compact('data')) -> with('i', (request()->input('page', 1) -1) *5);
+    
     }
 
     /**
@@ -28,27 +33,51 @@ class AnnouncementController extends Controller
      */
     public function create()
     {
-        //
+        return view('dashboard.crud-announcement.insert-announcement');
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StoreannouncementRequest  $request
+     * @param  \App\Http\Requests\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreannouncementRequest $request)
+    public function store(Request $request)
     {
-        //
+        $request -> validate([
+
+            'header' => 'required',
+            'sub_header' => 'required',
+            'description' => 'required',
+            'image' => 'required',
+            'user_id' => 'required'
+
+        ]);
+
+        $announcement = new Announcement;
+
+        $announcement -> header = $request -> header;
+        $announcement -> sub_header = $request -> sub_header;
+        $announcement -> description = $request -> description;
+        $announcement -> image = $request -> image;
+        $announcement -> user_id = $request -> user_id;
+
+        $announcement -> save();
+        
+        return redirect() -> route('announcements.index') -> with (
+            'success', 'Announcement Added successfully.');
+
+
+
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\announcement  $announcement
+     * @param  \App\Models\Announcement  $announcement
      * @return \Illuminate\Http\Response
      */
-    public function show(announcement $announcement)
+    public function show(Announcement $announcement)
     {
         //
     }
@@ -56,10 +85,10 @@ class AnnouncementController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\announcement  $announcement
+     * @param  \App\Models\Announcement  $announcement
      * @return \Illuminate\Http\Response
      */
-    public function edit(announcement $announcement)
+    public function edit(Announcement $announcement)
     {
         //
     }
@@ -67,11 +96,11 @@ class AnnouncementController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdateannouncementRequest  $request
-     * @param  \App\Models\announcement  $announcement
+     * @param  \App\Http\Requests\UpdateAnnouncementRequest  $request
+     * @param  \App\Models\Announcement  $announcement
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateannouncementRequest $request, announcement $announcement)
+    public function update(UpdateAnnouncementRequest $request, Announcement $announcement)
     {
         //
     }
@@ -79,11 +108,14 @@ class AnnouncementController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\announcement  $announcement
+     * @param  \App\Models\Announcement  $announcement
      * @return \Illuminate\Http\Response
      */
-    public function destroy(announcement $announcement)
+    public function destroy(Announcement $announcement)
     {
-        //
+        $announcement -> delete();
+            return redirect()->route('announcements.index')->with('success', 
+            'Student Data Deleted Successfully');
+
     }
 }
