@@ -47,7 +47,8 @@
                                         $row->id) }}">
                                           @csrf
                                           @method('DELETE')
-                                          <a href="" class="btn btn-warning btn-sm"> Edit </a>
+                                          <a href="{{ route('announcements.edit', $row ->id) }}" 
+                                            class="btn btn-warning btn-sm"> Edit </a>
                                           <input type="submit" class ="btn btn-danger btn-sm"
                                                 value = "DELETE" >
                                         </form>  

@@ -90,7 +90,7 @@ class AnnouncementController extends Controller
      */
     public function edit(Announcement $announcement)
     {
-        //
+        return view('edit', compact('Announcement'));
     }
 
     /**
