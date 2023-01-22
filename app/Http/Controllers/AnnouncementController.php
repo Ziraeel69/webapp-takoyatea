@@ -90,7 +90,7 @@ class AnnouncementController extends Controller
      */
     public function edit(Announcement $announcement)
     {
-        return view('edit', compact('Announcement'));
+        return view('dashboard.crud-announcement.edit-announcement', compact('announcement'));
     }
 
     /**
@@ -102,7 +102,18 @@ class AnnouncementController extends Controller
      */
     public function update(UpdateAnnouncementRequest $request, Announcement $announcement)
     {
-        //
+        $request -> validate([
+
+            'header' => 'required',
+            'sub_header' => 'required',
+            'description' => 'required',
+            'image' => 'required',
+            'user_id' => 'required'
+
+        ]);
+
+
+        $announcement = Announcement::find($announcement -> hidden_id);
     }
 
     /**
