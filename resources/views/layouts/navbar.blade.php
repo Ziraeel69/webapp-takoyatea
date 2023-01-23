@@ -16,7 +16,7 @@
         <li><a href="#events">Announcements</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#menu">Menu</a></li>
-        <li><a href="#chefs">Chefs</a></li>
+        <li><a href="#chefs">Owner</a></li>
         <li><a href="#gallery">Gallery</a></li>
     <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
@@ -36,10 +36,10 @@
             </ul>
         </li> -->
         <li><a href="#contact">Contact</a></li>
-    <div>
+    <!--<div>
     <a class="btn-book-a-table" href="#book-a-table">Books a Table</a>
     <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
     <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-    </div>
+    </div> -->
         </ul>
     </nav><!-- .navbar -->

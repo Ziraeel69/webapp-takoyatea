@@ -17,7 +17,7 @@
           <p data-aos="fade-up" data-aos-delay="100">Freshen up with our new milktea taste and partner it with our delicious takoyaki!</p>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
             <a href="#book-a-table" class="btn-book-a-table">Book a Table</a>
-            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            <a href="https://youtu.be/dQw4w9WgXcQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
         </div>
         <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
@@ -105,7 +105,7 @@
 
               <div class="position-relative mt-4">
                 <img src="assets-homepage/assets/img/food.png" class="img-fluid" alt="">
-                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
+                <a href="https://youtu.be/dQw4w9WgXcQ" class="glightbox play-btn"></a>
               </div>
             </div>
           </div>
@@ -138,15 +138,10 @@
 
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
-              <h4>Lunch</h4>
+              <h4>Main Dish</h4>
             </a>
           </li><!-- End tab nav item -->
 
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
-              <h4>Dinner</h4>
-            </a>
-          </li><!-- End tab nav item -->
 
         </ul>
 
@@ -159,7 +154,7 @@
               <h3>Whole Menu</h3>
             </div>
 
-            <div class="row gy-5">
+            <div class="row gy-5 justify-content-center">
 
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu1.png" class="glightbox"><img src="assets-homepage/assets/img/menu1.png" class="menu-img img-fluid" alt=""></a>
@@ -175,12 +170,6 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu2.png" class="glightbox"><img src="assets-homepage/assets/img/menu2.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Menu 2</h4>
-                <p class="ingredients">
-                
-                </p>
-                <p class="price">
-
-                </p>
               </div><!-- Menu Item -->
 
               
@@ -199,9 +188,9 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu2/cookies&cream.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/cookies&cream.png" class="menu2-img img-fluid" alt=""></a>
                 <h4>Cookies & Cream</h4>
-                <p class="ingredients">
+                <!-- <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
-                </p>
+                </p> -->
                 <p class="price">
                   $5.95
                 </p>
@@ -210,9 +199,6 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu2/darkchoco.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/darkchoco.png" class="menu2-img img-fluid" alt=""></a>
                 <h4>Dark Choco</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
                 <p class="price">
                   $14.95
                 </p>
@@ -221,9 +207,6 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu2/matcha.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/matcha.png" class="menu2-img img-fluid" alt=""></a>
                 <h4>Matcha</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
                 <p class="price">
                   $8.95
                 </p>
@@ -232,9 +215,6 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu2/sakura.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/sakura.png" class="menu2-img img-fluid" alt=""></a>
                 <h4>Sakura</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
                 <p class="price">
                   $12.95
                 </p>
@@ -243,9 +223,6 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu2/strawberry.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/strawberry.png" class="menu2-img img-fluid" alt=""></a>
                 <h4>Strawberry</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
                 <p class="price">
                   $12.95
                 </p>
@@ -254,9 +231,6 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu2/wintermelon.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/wintermelon.png" class="menu2-img img-fluid" alt=""></a>
                 <h4>Wintermelon</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
                 <p class="price">
                   $9.95
                 </p>
@@ -265,31 +239,22 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu2/redvelvet.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/redvelvet.png" class="menu2-img img-fluid" alt=""></a>
                 <h4>RedVelvet</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
                 <p class="price">
                   $12.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets-homepage/assets/img/menu2/okinawa.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/okinawa.png" class="menu2-img img-fluid" alt=""></a>
+                <a href="assets-homepage/assets/img/menu2/whiterabbit.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/whiterabbit.png" class="menu2-img img-fluid" alt=""></a>
                 <h4>Okinawa</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
                 <p class="price">
                   $12.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets-homepage/assets/img/menu2/brownsugar.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/brownsugar.png" class="menu2-img img-fluid" alt=""></a>
-                <h4>Brown Sugar</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
+                <a href="assets-homepage/assets/img/menu2/coffe.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/coffe.png" class="menu2-img img-fluid" alt=""></a>
+                <h4>Coffee Jelly</h4>
                 <p class="price">
                   $12.95
                 </p>
@@ -302,47 +267,29 @@
 
             <div class="tab-header text-center">
               <p>Menu</p>
-              <h3>Lunch</h3>
+              <h3>Main Dish</h3>
             </div>
 
             <div class="row gy-5">
 
               <div class="col-lg-4 menu-item">
-                <a href="assets-homepage/assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets-homepage/assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $5.95
-                </p>
+                <a href="assets-homepage/assets/img/menu/gyoza.png" class="glightbox"><img src="assets-homepage/assets/img/menu/gyoza.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Gyoza</h4>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets-homepage/assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets-homepage/assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $14.95
-                </p>
+                <a href="assets-homepage/assets/img/menu/takoyaki.png" class="glightbox"><img src="assets-homepage/assets/img/menu/takoyaki.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Takoyaki</h4>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets-homepage/assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets-homepage/assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $8.95
-                </p>
+                <a href="assets-homepage/assets/img/menu/okonomiyaki.png" class="glightbox"><img src="assets-homepage/assets/img/menu/okonomiyaki.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Okonomiyaki</h4>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets-homepage/assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets-homepage/assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <a href="assets-homepage/assets/img/menu/ramen.png" class="glightbox"><img src="assets-homepage/assets/img/menu/ramen.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Ramen</h4>
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
@@ -351,108 +298,33 @@
                 </p>
               </div><!-- Menu Item -->
 
-              <div class="col-lg-4 menu-item">
-                <a href="assets-homepage/assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets-homepage/assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
+            <div class="col-lg-4 menu-item">
+                <a href="assets-homepage/assets/img/menu/katsudon.png" class="glightbox"><img src="assets-homepage/assets/img/menu/katsudon.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Katsudon</h4>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets-homepage/assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets-homepage/assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $9.95
-                </p>
+                <a href="assets-homepage/assets/img/menu/gyudon.png" class="glightbox"><img src="assets-homepage/assets/img/menu/gyudon.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Gyudon</h4>
+              </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+                <a href="assets-homepage/assets/img/menu/chickenkaraage.png" class="glightbox"><img src="assets-homepage/assets/img/menu/chickenkaraage.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Chicken Karaage</h4>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets-homepage/assets/img/menu/chickenteriyaki.png" class="glightbox"><img src="assets-homepage/assets/img/menu/chickenteriyaki.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Chicken Teriyaki</h4>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets-homepage/assets/img/menu/oyakodon.png" class="glightbox"><img src="assets-homepage/assets/img/menu/oyakodon.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Oyakodon</h4>
               </div><!-- Menu Item -->
 
             </div>
           </div><!-- End Lunch Menu Content -->
-
-          <div class="tab-pane fade" id="menu-dinner">
-
-            <div class="tab-header text-center">
-              <p>Menu</p>
-              <h3>Dinner</h3>
-            </div>
-
-            <div class="row gy-5">
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets-homepage/assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets-homepage/assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $5.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets-homepage/assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets-homepage/assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $14.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets-homepage/assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets-homepage/assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $8.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets-homepage/assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets-homepage/assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets-homepage/assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets-homepage/assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets-homepage/assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets-homepage/assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $9.95
-                </p>
-              </div><!-- Menu Item -->
-
-            </div>
-          </div><!-- End Dinner Menu Content -->
 
         </div>
 
@@ -579,65 +451,26 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Chefs</h2>
-          <p>Our <span>Proffesional</span> Chefs</p>
+          <h2>Branch Owner</h2>
+          <p>Our <span>Beautiful</span> Branch Owner</p>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4 justify-content-center">
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="chef-member">
-              <div class="member-img">
-                <img src="assets-homepage/assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch " data-aos="fade-up" data-aos-delay="200">
+            <div class="chef-member" >
+              <div class="member-img" style="display: grid; place-items: center;">
+                <img src="assets-homepage/assets/img/Owner.jpeg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100072251077702"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/takoyatea.ph/?hl=en"><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Master Chef</span>
-                <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
-              </div>
-            </div>
-          </div><!-- End Chefs Member -->
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="chef-member">
-              <div class="member-img">
-                <img src="assets-homepage/assets/img/chefs/chefs-2.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Patissier</span>
-                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
-              </div>
-            </div>
-          </div><!-- End Chefs Member -->
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="chef-member">
-              <div class="member-img">
-                <img src="assets-homepage/assets/img/chefs/chefs-3.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>Cook</span>
-                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+                <h4>MICHELLE C. GUZMAN</h4>
+                <span>Branch Owner</span>
               </div>
             </div>
           </div><!-- End Chefs Member -->
@@ -717,14 +550,14 @@
 
         <div class="gallery-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery1.png"><img src="assets-homepage/assets/img/gallery/gallery1.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery.png"><img src="assets-homepage/assets/img/gallery/gallery.png" class="img-fluid" alt=""></a></div>
             <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery2.png"><img src="assets-homepage/assets/img/gallery/gallery2.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery3.png"><img src="assets-homepage/assets/img/gallery/gallery3.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery4.png"><img src="assets-homepage/assets/img/gallery/gallery4.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery5.png"><img src="assets-homepage/assets/img/gallery/gallery5.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/lobby2.png"><img src="assets-homepage/assets/img/gallery/lobby2.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/pic1.png"><img src="assets-homepage/assets/img/gallery/pic1.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/pic.png"><img src="assets-homepage/assets/img/gallery/pic.png" class="img-fluid" alt=""></a></div>
             <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery6.png"><img src="assets-homepage/assets/img/gallery/gallery6.png" class="img-fluid" alt=""></a></div>
             <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery7.png"><img src="assets-homepage/assets/img/gallery/gallery7.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/gallery8.png"><img src="assets-homepage/assets/img/gallery/gallery8.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets-homepage/assets/img/gallery/lobby3.png"><img src="assets-homepage/assets/img/gallery/lobby3.png" class="img-fluid" alt=""></a></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
