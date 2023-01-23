@@ -4,7 +4,7 @@
  <div class="card">   
     <div class="card-header">Edit Announcement</div>
     <div class="card-body">
-        <form method="post" action="{{ route('announcements.update', $announcement -> id) }}" 
+        <form method="POST" action="{{ route('announcements.update', ['announcement' => $announcement]) }}" 
             enctype="multipart/form-data">
             
             @csrf
@@ -45,8 +45,9 @@
                 </div>
             </div>
             <div class="text-center">
-                <input type="hidden" name="hidden_id" value="{{ $announcement -> id}}" />
+                {{-- <input type="hidden" name="hidden_id" value="{{ $announcement -> id}}" /> --}}
                 <input type="submit" class="btn btn-primary" value="Update" />
+            </div>
 
         </form>
     </div>

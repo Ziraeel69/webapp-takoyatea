@@ -102,25 +102,25 @@ class AnnouncementController extends Controller
      */
     public function update(UpdateAnnouncementRequest $request, Announcement $announcement)
     {
-        $request -> validate([
+        // $request -> validate([
 
-            'header' => 'required',
-            'sub_header' => 'required',
-            'description' => 'required',
-            'image' => 'required',
-            'user_id' => 'required'
+        //     'header' => 'required',
+        //     'sub_header' => 'required',
+        //     'description' => 'required',
+        //     'image' => 'required',
+        //     'user_id' => 'required'
 
-        ]);
+        // ]);
 
+        $announcement->update($request->all());
+        // $announcement = Announcement::find($announcement -> hidden_id);
 
-        $announcement = Announcement::find($announcement -> hidden_id);
-        
-        $announcement -> header = $request -> header;
-        $announcement -> sub_header = $request -> sub_header;
-        $announcement -> description =  $request -> request;
-        $announcement -> image = $request -> image;
-        $announcement -> user_id = $request -> user_id;
-        $announcement -> save();
+        // $announcement -> header = $request -> header;
+        // $announcement -> sub_header = $request -> sub_header;
+        // $announcement -> description =  $request -> request;
+        // $announcement -> image = $request -> image;
+        // $announcement -> user_id = $request -> user_id;
+        // $announcement -> save();
 
         return redirect() -> route('announcements.index') -> with('success', 'Announcement Data 
         has been updated successfully');
