@@ -16,8 +16,8 @@
     </a>
     <ul id="tables-nav" class="nav-content collapse ">
       <li>
-        <a href="tables-general.html">
-          <i class="bi bi-circle"></i><span>General Tables</span>
+        <a href="{{ route('user.index') }}">
+          <i class="bi bi-circle"></i><span>User Tables</span>
         </a>
       </li>
       <li>
