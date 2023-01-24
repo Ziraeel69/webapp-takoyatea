@@ -2,30 +2,26 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Announcement;
-use App\Http\Requests\StoreAnnouncementRequest;
-use App\Http\Requests\UpdateAnnouncementRequest;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
+use App\Models\User;
+use App\Http\Requests\StoreUserRequest;
+use App\Http\Requests\UpdateUserRequest;
+use Illuminate\Support\Facades\DB;
 
-class AnnouncementController extends Controller
+
+
+class UserController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
     
         // $announcement = Announcement::all();
         // return view('dashboard.pages.announcement-table', ['data' => $announcement ]);
     
-        $data = Announcement::latest() -> paginate(5);
-        return view('dashboard.pages.announcement-table', compact('data')) -> with('i', (request()->input('page', 1) -1) *5);
+        $data = user::latest() -> paginate(5);
+        return view('dashboard.pages.user-table', compact('data')) -> with('i', (request()->input('page', 1) -1) *5);
     
     }
-
     /**
      * Show the form for creating a new resource.
      *
@@ -33,7 +29,7 @@ class AnnouncementController extends Controller
      */
     public function create()
     {
-        return view('dashboard.crud-announcement.insert-announcement');
+        return view('dashboard.crud-user.insert-user');
     }
 
     /**
@@ -46,23 +42,19 @@ class AnnouncementController extends Controller
     {
         $request -> validate([
 
-            'header' => 'required',
-            'sub_header' => 'required',
-            'description' => 'required',
-            'image' => 'required',
-            'user_id' => 'required'
+            'Full Name' => 'required',
+            'Email' => 'required',
+            'Password' => 'required'
 
         ]);
 
-        $announcement = new Announcement;
+        $user = new User;
 
-        $announcement -> header = $request -> header;
-        $announcement -> sub_header = $request -> sub_header;
-        $announcement -> description = $request -> description;
-        $announcement -> image = $request -> image;
-        $announcement -> user_id = $request -> user_id;
-
-        $announcement -> save();
+        
+        $user -> name = $request -> name;
+        $user -> email = $request -> email;
+        $user -> password = $request -> password;
+        $user -> save();
         
         return redirect() -> route('announcements.index') -> with (
             'success', 'Announcement Added successfully.');
@@ -100,7 +92,7 @@ class AnnouncementController extends Controller
      * @param  \App\Models\Announcement  $announcement
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Announcement $announcement)
+    public function update(UpdateAnnouncementRequest $request, Announcement $announcement)
     {
         $request -> validate([
 
@@ -112,14 +104,14 @@ class AnnouncementController extends Controller
 
         ]);
 
-        $announcement = Announcement::find($request->hidden_id);
+        $announcement->update($request->all());
 
-        $announcement -> header = $request -> header;
-        $announcement -> sub_header = $request -> sub_header;
-        $announcement -> description =  $request -> description;
-        $announcement -> image = $request -> image;
-        $announcement -> user_id = $request -> user_id;
-        $announcement -> save();
+        // $announcement -> header = $request -> header;
+        // $announcement -> sub_header = $request -> sub_header;
+        // $announcement -> description =  $request -> request;
+        // $announcement -> image = $request -> image;
+        // $announcement -> user_id = $request -> user_id;
+        // $announcement -> save();
 
         return redirect() -> route('announcements.index') -> with('success', 'Announcement Data 
         has been updated successfully');

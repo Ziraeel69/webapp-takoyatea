@@ -4,7 +4,7 @@
  <div class="card">   
     <div class="card-header">Edit Announcement</div>
     <div class="card-body">
-        <form method="post" action="{{ route('announcements.update', $announcement -> id) }}" 
+        <form method="post" action="{{ route('announcements.update', $announcement -> id) }}"
             enctype="multipart/form-data">
             
             @csrf
@@ -40,13 +40,14 @@
             <div class="row mb-3">
                 <label class="col-sm-2 col-label-form"> User ID </label>
                 <div class="col-sm-10">
-                    <input disabled type="text" value="{{$announcement -> user_id}}" name="user_id" class="form-control" value="{{
+                    <input type="text" value="{{$announcement -> user_id}}" name="user_id" class="form-control" value="{{
                         $announcement->User_id }}" />
                 </div>
             </div>
             <div class="text-center">
                 <input type="hidden" name="hidden_id" value="{{ $announcement -> id}}" />
                 <input type="submit" class="btn btn-primary" value="Update" />
+            </div>
 
         </form>
     </div>
