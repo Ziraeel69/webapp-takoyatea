@@ -16,7 +16,7 @@
           <h2 data-aos="fade-up">Enjoy Your Healthy<br>Delicious Food</h2>
           <p data-aos="fade-up" data-aos-delay="100">Freshen up with our new milktea taste and partner it with our delicious takoyaki!</p>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="#book-a-table" class="btn-book-a-table">Book a Table</a>
+            <a href="#contact" class="btn-book-a-table">Contact & Location</a>
             <a href="https://youtu.be/dQw4w9WgXcQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
         </div>
@@ -331,7 +331,7 @@
       </div>
     </section><!-- End Menu Section -->
 
-    <!-- ======= Testimonials Section ======= -->
+    <!-- ======= Testimonials Section ======= 
     <section id="testimonials" class="testimonials section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -365,7 +365,7 @@
                   </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>< End testimonial item 
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -389,7 +389,7 @@
                   </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div> 
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -413,7 +413,7 @@
                   </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -437,16 +437,16 @@
                   </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section> 
 
-    <!-- ======= Chefs Section ======= -->
+    <!- ======= Chefs Section ======= -->
     <section id="chefs" class="chefs section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -480,7 +480,7 @@
       </div>
     </section><!-- End Chefs Section -->
 
-    <!-- ======= Book A Table Section ======= -->
+    <!-- ======= Book A Table Section ======= 
     <section id="book-a-table" class="book-a-table">
       <div class="container" data-aos="fade-up">
 
@@ -532,12 +532,12 @@
               </div>
               <div class="text-center"><button type="submit">Book a Table</button></div>
             </form>
-          </div><!-- End Reservation Form -->
+          </div>End Reservation Form 
 
         </div>
 
       </div>
-    </section><!-- End Book A Table Section -->
+    </section>End Book A Table Section -->
 
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery section-bg">
@@ -570,7 +570,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Contact</h2>
+          <h2>Contact & Location</h2>
           <p>Need Help? <span>Contact Us</span></p>
         </div>
 
@@ -624,7 +624,7 @@
 
         </div>
 
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form p-3 p-md-4">
+        <!--<form action="forms/contact.php" method="post" role="form" class="php-email-form p-3 p-md-4">
           <div class="row">
             <div class="col-xl-6 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -646,7 +646,7 @@
           </div>
           <div class="text-center"><button type="submit">Send Message</button></div>
         </form>
-        <!--End Contact Form -->
+        End Contact Form -->
 
       </div>
     </section><!-- End Contact Section -->
@@ -704,19 +704,18 @@
       </div>
     </div>
 
-    <div class="container">
+  <!-- <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>Yummy</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
+      All the links in the footer should remain intact. 
+      You can delete the links only if you purchased the pro version.
+      Licensing information: https://bootstrapmade.com/license/
+      Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
-    </div>
-
-  </footer><!-- End Footer -->
+    </div> 
+  </footer> End Footer -->
   <!-- End Footer -->
 @endsection
