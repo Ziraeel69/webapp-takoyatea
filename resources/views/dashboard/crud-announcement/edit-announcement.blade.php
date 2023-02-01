@@ -33,8 +33,11 @@
             <div class="row mb-3">
                 <label class="col-sm-2 col-label-form"> Image </label>
                 <div class="col-sm-10">
-                    <input type="text" value="{{$announcement -> image}}" name="image" class="form-control" value="{{
+                    <input type="file" value="{{$announcement -> image}}" name="image" class="form-control" value="{{
                         $announcement->Image }}" />
+                        <img src = "{{ asset('images/' . $announcement -> image) }}" width ="100" 
+                        class = "img-thumbnail" />
+                        <input type="hidden" name="hidden_image" values = "{{$announcement -> image}}"
                 </div>
             </div>
             <div class="row mb-3">

@@ -49,17 +49,20 @@ class AnnouncementController extends Controller
             'header' => 'required',
             'sub_header' => 'required',
             'description' => 'required',
-            'image' => 'required',
+            'image' => 'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|
+            dimensions:min_width=100,min_height=100,max_width=1000,max_height=1000',
             'user_id' => 'required'
 
         ]);
 
+        $file_name = time() . '.' . request()-> image -> getClientOriginalExtension();
+        request() -> image -> move(public_path('image'), $file_name);
         $announcement = new Announcement;
 
         $announcement -> header = $request -> header;
         $announcement -> sub_header = $request -> sub_header;
         $announcement -> description = $request -> description;
-        $announcement -> image = $request -> image;
+        $announcement -> image = $file_name;
         $announcement -> user_id = $request -> user_id;
 
         $announcement -> save();
@@ -96,7 +99,7 @@ class AnnouncementController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdateAnnouncementRequest  $request
+     * @param  \App\Http\Requests\Request  $request
      * @param  \App\Models\Announcement  $announcement
      * @return \Illuminate\Http\Response
      */
@@ -107,17 +110,26 @@ class AnnouncementController extends Controller
             'header' => 'required',
             'sub_header' => 'required',
             'description' => 'required',
-            'image' => 'required',
+            'image' => 'image|mimes:jpeg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,
+            max_width=1000,max_height=1000',
             'user_id' => 'required'
 
         ]);
 
+        $image = $request -> hidden_image;
+
+        if($request -> image != ' ')
+        {
+            $image = time() . '.' . request()-> image -> getClientOriginalExtension();
+        
+            request() -> image -> move(public_path('images'), $image);
+        }   
         $announcement = Announcement::find($request->hidden_id);
 
         $announcement -> header = $request -> header;
         $announcement -> sub_header = $request -> sub_header;
         $announcement -> description =  $request -> description;
-        $announcement -> image = $request -> image;
+        $announcement -> image = $image;
         $announcement -> user_id = $request -> user_id;
         $announcement -> save();
 
