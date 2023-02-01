@@ -1,12 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div>
-      <a class="btn-book-a-table" href="/login">LOGIN</a>
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-    </div>
-  </header><!-- End Header -->
+    
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center section-bg">
@@ -206,73 +201,49 @@
                 <!-- <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p> -->
-                <p class="price">
+                {{-- <p class="price">
                   $5.95
-                </p>
+                </p> --}}
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu2/darkchoco.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/darkchoco.png" class="menu2-img img-fluid" alt=""></a>
                 <h4>Dark Choco</h4>
-                <p class="price">
-                  $14.95
-                </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu2/matcha.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/matcha.png" class="menu2-img img-fluid" alt=""></a>
                 <h4>Matcha</h4>
-                <p class="price">
-                  $8.95
-                </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu2/sakura.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/sakura.png" class="menu2-img img-fluid" alt=""></a>
                 <h4>Sakura</h4>
-                <p class="price">
-                  $12.95
-                </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu2/strawberry.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/strawberry.png" class="menu2-img img-fluid" alt=""></a>
                 <h4>Strawberry</h4>
-                <p class="price">
-                  $12.95
-                </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu2/wintermelon.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/wintermelon.png" class="menu2-img img-fluid" alt=""></a>
                 <h4>Wintermelon</h4>
-                <p class="price">
-                  $9.95
-                </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu2/redvelvet.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/redvelvet.png" class="menu2-img img-fluid" alt=""></a>
                 <h4>RedVelvet</h4>
-                <p class="price">
-                  $12.95
-                </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu2/whiterabbit.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/whiterabbit.png" class="menu2-img img-fluid" alt=""></a>
                 <h4>Okinawa</h4>
-                <p class="price">
-                  $12.95
-                </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu2/coffe.png" class="glightbox"><img src="assets-homepage/assets/img/menu2/coffe.png" class="menu2-img img-fluid" alt=""></a>
                 <h4>Coffee Jelly</h4>
-                <p class="price">
-                  $12.95
-                </p>
               </div><!-- Menu Item -->
 
             </div>
@@ -305,12 +276,12 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets-homepage/assets/img/menu/ramen.png" class="glightbox"><img src="assets-homepage/assets/img/menu/ramen.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Ramen</h4>
-                <p class="ingredients">
+                {{-- <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
                   $12.95
-                </p>
+                </p> --}}
               </div><!-- Menu Item -->
 
             <div class="col-lg-4 menu-item">
@@ -631,7 +602,7 @@
               <i class="icon bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email Us</h3>
-                <p>contact@example.com</p>
+                <p>takoyateabxucentro@gmail.com</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -712,7 +683,7 @@
             <h4>Reservations</h4>
             <p>
               <strong>Phone:</strong> +63 947 101 2323<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Email:</strong> takoyateabxucentro@gmail.com<br>
             </p>
           </div>
         </div>
