@@ -306,7 +306,7 @@ section {
   background: var(--color-primary);
   padding: 8px 20px;
   margin-left: 30px;
-  border-radius: 50px;
+  border-radius: 5px;
   transition: 0.3s;
 }
 

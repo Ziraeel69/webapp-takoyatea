@@ -35,7 +35,7 @@
             <li><a href="#">Drop Down 4</a></li>
             </ul>
         </li> -->
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact">Contact & Location</a></li>
     <!--<div>
     <a class="btn-book-a-table" href="#book-a-table">Books a Table</a>
     <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
