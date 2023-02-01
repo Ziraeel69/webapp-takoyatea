@@ -34,8 +34,8 @@
       <div class="container-fluid" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Announcnements</h2>
-          <p>Share <span>Your Moments</span> In Our Restaurant</p>
+          <h2>Announcements</h2>
+          <p>Announcements! <span>Announcements!</span>Announcements!</p>
         </div>
 
         <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
