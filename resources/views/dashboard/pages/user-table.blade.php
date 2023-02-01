@@ -13,7 +13,7 @@
         <div class ="row">
             <div class="col col-md-6"><b>User Data</b></div>
             <div class="col col-md-6">
-                <a href="{{ route('user.create') }}" class="btn btn-success btn-sm float-start"> Add Announcement </a>
+                <a href="{{ route('user.create') }}" class="btn btn-success btn-sm float-start"> Add User </a>
             </div>
         </div>
     </div>

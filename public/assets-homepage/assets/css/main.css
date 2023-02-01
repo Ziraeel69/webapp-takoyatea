@@ -288,16 +288,18 @@ section {
 }
 
 .header .logo h1 {
-  font-size: 28px;
+  font-size: 50x;
   font-weight: 700;
   color: #000;
   margin: 0;
-  font-family: var(--font-secondary);
+  font-family: 'Itim', cursive;
 }
 
 .header .logo h1 span {
   color: var(--color-primary);
 }
+
+
 
 .header .btn-book-a-table,
 .header .btn-book-a-table:focus {

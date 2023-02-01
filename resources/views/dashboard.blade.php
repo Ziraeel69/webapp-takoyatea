@@ -315,39 +315,39 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <th scope="row"><a href="#"><img src="{{ asset('assets-dashboard/assets/img/product-1.jpg') }}" alt=""></a></th>
-                      <td><a href="#" class="text-primary fw-bold">Ut inventore ipsa voluptas nulla</a></td>
-                      <td>$64</td>
-                      <td class="fw-bold">124</td>
-                      <td>$5,828</td>
+                      <th scope="row"><a href="#"><img src="{{ asset('assets-dashboard/assets/img/cookies&cream.png') }}" alt=""></a></th>
+                      <td><a href="#" class="text-primary fw-bold">Cookies & Cream</a></td>
+                      <td>P 128</td>
+                      <td class="fw-bold">100</td>
+                      <td>------------</td>
                     </tr>
                     <tr>
-                      <th scope="row"><a href="#"><img src="{{ asset('assets-dashboard/assets/img/product-2.jpg') }}" alt=""></a></th>
-                      <td><a href="#" class="text-primary fw-bold">Exercitationem similique doloremque</a></td>
-                      <td>$46</td>
-                      <td class="fw-bold">98</td>
-                      <td>$4,508</td>
+                      <th scope="row"><a href="#"><img src="{{ asset('assets-dashboard/assets/img/chickenteriyaki.png') }}" alt=""></a></th>
+                      <td><a href="#" class="text-primary fw-bold">Chicken Teriyaki</a></td>
+                      <td>P 258</td>
+                      <td class="fw-bold">150</td>
+                      <td>------------</td>
                     </tr>
                     <tr>
-                      <th scope="row"><a href="#"><img src="{{ asset('assets-dashboard/assets/img/product-3.jpg') }}" alt=""></a></th>
-                      <td><a href="#" class="text-primary fw-bold">Doloribus nisi exercitationem</a></td>
-                      <td>$59</td>
+                      <th scope="row"><a href="#"><img src="{{ asset('assets-dashboard/assets/img/katsudon.png') }}" alt=""></a></th>
+                      <td><a href="#" class="text-primary fw-bold">Katsudon</a></td>
+                      <td>P 268</td>
                       <td class="fw-bold">74</td>
-                      <td>$4,366</td>
+                      <td>-------------</td>
                     </tr>
                     <tr>
-                      <th scope="row"><a href="#"><img src="{{ asset('assets-dashboard/assets/img/product-4.jpg') }}" alt=""></a></th>
-                      <td><a href="#" class="text-primary fw-bold">Officiis quaerat sint rerum error</a></td>
-                      <td>$32</td>
+                      <th scope="row"><a href="#"><img src="{{ asset('assets-dashboard/assets/img/darkchoco.png') }}" alt=""></a></th>
+                      <td><a href="#" class="text-primary fw-bold">Dark Choco</a></td>
+                      <td>P 128</td>
                       <td class="fw-bold">63</td>
-                      <td>$2,016</td>
+                      <td>--------------</td>
                     </tr>
                     <tr>
-                      <th scope="row"><a href="#"><img src="{{ asset('assets-dashboard/assets/img/product-5.jpg') }}" alt=""></a></th>
-                      <td><a href="#" class="text-primary fw-bold">Sit unde debitis delectus repellendus</a></td>
-                      <td>$79</td>
+                      <th scope="row"><a href="#"><img src="{{ asset('assets-dashboard/assets/img/takoyaki.png') }}" alt=""></a></th>
+                      <td><a href="#" class="text-primary fw-bold">Takoyaki</a></td>
+                      <td>P 108</td>
                       <td class="fw-bold">41</td>
-                      <td>$3,239</td>
+                      <td>---------------</td>
                     </tr>
                   </tbody>
                 </table>

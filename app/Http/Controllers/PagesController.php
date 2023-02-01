@@ -3,13 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Announcement;
 
 class PagesController extends Controller
 {
     //
     public function index()
     {
-        return view('landingpage');
+        $announcements = Announcement::all();
+
+        return view('landingpage', ['announcements' => $announcements]);
     }
 
     public function login()

@@ -41,7 +41,22 @@
         <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
 
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets-homepage/assets/img/events-1.jpg)">
+            @foreach ($announcements as $announcement )
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url({{asset('images/' . $announcement->image)}});">
+              {{-- <img src="{{asset('images/' . $announcement->image)}}" alt="" class="w-100 rounded"> --}}
+              <h3>{{ $announcement->header }}</h3>
+              <div class="price align-self-center">{{ $announcement->sub_header }}</div>
+              <p class="description">{{ $announcement->description }}</p>
+            </div>
+            {{-- <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="{{ 'background-image: '. asset('images/' . $announcement->image)  }};">
+              <img src="{{asset('images/' . $announcement->image)}}" alt="" class="w-100 rounded">
+              <h3>{{ $announcement->header }}</h3>
+              <div class="price align-self-center">{{ $announcement->sub_header }}</div>
+              <p class="description">{{ $announcement->description }}</p>
+            </div> --}}
+            @endforeach
+
+            {{-- <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets-homepage/assets/img/events-1.jpg)">
               <h3>Custom Parties</h3>
               <div class="price align-self-start">$99</div>
               <p class="description">
@@ -59,11 +74,11 @@
 
             <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets-homepage/assets/img/events-3.jpg)">
               <h3>Birthday Parties</h3>
-              <div class="price align-self-start">$499</div>
+              <div q class="price align-self-start">$499</div>
               <p class="description">
                 Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
               </p>
-            </div><!-- End Event item -->
+            </div><!-- End Event item --> --}}
 
           </div>
           <div class="swiper-pagination"></div>
@@ -474,6 +489,27 @@
               </div>
             </div>
           </div><!-- End Chefs Member -->
+
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch " data-aos="fade-up" data-aos-delay="200">
+            <div class="chef-member" >
+              <div class="member-img" style="display: grid; place-items: center;">
+                <img src="assets-homepage/assets/img/CEO1.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com/joelcruzofficial/"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/joelcruzaficionado/?hl=en"><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>JOEL CRUZ</h4>
+                <span>CEO</span>
+              </div>
+            </div>
+
+            
+          </div><!-- End Chefs Member -->
+
 
         </div>
 

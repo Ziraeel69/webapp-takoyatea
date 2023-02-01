@@ -7,7 +7,7 @@
     <a href="/" class="logo d-flex align-items-center me-auto me-lg-0"> 
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets-homepage/assets/img/logo2.png" width="50" height="200" alt="">
-        <h1>TakoyaTea<span>.</span></h1> 
+        <h1 class="logo-title">TakoyaTea<span>.</span></h1> 
 
 
     <nav id="navbar" class="navbar">
