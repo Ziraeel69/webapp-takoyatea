@@ -40,7 +40,9 @@
                               <td>{{ $row->header }}</td>
                               <td>{{ $row->sub_header }}</td>
                               <td>{{ $row->description }}</td>
-                              <td>{{ $row->image }}</td>
+                              <td>
+                                <img src = "{{ asset('images/' . $row -> image) }}" width ="100" class = "image-thumbnail" style="border: solid black" >
+                              </td>
                               <td>{{ $row->user_id }}</td>
                                     <td>
                                         <form method="post" action= "{{ route('announcements.destroy',

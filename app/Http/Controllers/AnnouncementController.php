@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\controllers\controller;
 use App\Models\Announcement;
 use App\Http\Requests\StoreAnnouncementRequest;
 use App\Http\Requests\UpdateAnnouncementRequest;
@@ -49,14 +50,13 @@ class AnnouncementController extends Controller
             'header' => 'required',
             'sub_header' => 'required',
             'description' => 'required',
-            'image' => 'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|
-            dimensions:min_width=100,min_height=100,max_width=1000,max_height=1000',
+            'image' => 'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|',
             'user_id' => 'required'
 
         ]);
 
         $file_name = time() . '.' . request()-> image -> getClientOriginalExtension();
-        request() -> image -> move(public_path('image'), $file_name);
+        request() -> image -> move(public_path('images'), $file_name);
         $announcement = new Announcement;
 
         $announcement -> header = $request -> header;
@@ -99,7 +99,7 @@ class AnnouncementController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\Request  $request
+     * @param  \App\Http\Requests\UpdateAnnouncementRequest  $request
      * @param  \App\Models\Announcement  $announcement
      * @return \Illuminate\Http\Response
      */
@@ -110,18 +110,16 @@ class AnnouncementController extends Controller
             'header' => 'required',
             'sub_header' => 'required',
             'description' => 'required',
-            'image' => 'image|mimes:jpeg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,
-            max_width=1000,max_height=1000',
+            'image' => 'image|mimes:jpeg,png,jpeg,gif,svg|max:2048|',
             'user_id' => 'required'
 
         ]);
 
         $image = $request -> hidden_image;
 
-        if($request -> image != ' ')
+        if($request->image != '')
         {
-            $image = time() . '.' . request()-> image -> getClientOriginalExtension();
-        
+            $image = time() . '.' . request()->image->getClientOriginalExtention();
             request() -> image -> move(public_path('images'), $image);
         }   
         $announcement = Announcement::find($request->hidden_id);
