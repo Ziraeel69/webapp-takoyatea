@@ -38,6 +38,16 @@
 			<!--<a href="/"> -->
 				<span class="login100-form-title p-b-41">
 				User Login
+				@error('email')
+					<div class="alert alert-danger" role="alert">
+					{{ $message }}
+				  </div>
+				@enderror
+				@error('password')
+					<div class="alert alert-danger" role="alert">
+					{{ $message }}
+				  </div>
+				@enderror
 				</span>
 				<form class="login100-form validate-form p-b-33 p-t-5">
 
