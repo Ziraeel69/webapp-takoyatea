@@ -94,15 +94,12 @@ class UserController extends Controller
      * @param  \App\Models\User  $announcement
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateUserRequest $request, User $user)
+    public function update(Request $request, User $user)
     {
         $request -> validate([
 
-            'name' => 'required',
-            'email' => 'required',
-            'password' => 'required',
-            
-
+            'name' => 'required|string',
+            'email' => 'required|email',
         ]);
 
         $user->update($request->all());
